@@ -1,3 +1,3 @@
 # terraform
 
-By using Terraform we are creating an EC2 Insatnce in AWS environment.
+By using Terraform we are deploying OpenAPI WebAPP  on Fartgate  in AWS environment.
