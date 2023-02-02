@@ -17,6 +17,12 @@
  5.Created AWS ECS cluster with leveraging ECR and Fartgate(Task ,ALB and services)
  
  6.Exposed the WEBAPP on Isolated environment 
+ 
+ Ssome of the commands utilised in creation and build of docker containers
+
+#docker build -f Dockerfile -t hello-world.jar:latest .
+
+#docker run  -p 3000:80  hello-world.jar:1.0.latest
 
 #### Findings
 
