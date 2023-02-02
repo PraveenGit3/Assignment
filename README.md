@@ -1,11 +1,11 @@
 # Assignment
 
- Question-1 :Dockerise and deploy hello-world.jar (in the GitHub repository associated with this challenge) to
-Amazon Web Services using their Elastic Container Service. This application contains a simple API with Open API
-documentation, and should be deployed in a secure isolated environment with only HTTPS exposed to the
-world.
+ # Question-1 Dockerise and deploy hello-world.jar (in the GitHub repository associated with this challenge) to
+# Amazon Web Services using their Elastic Container Service. This application contains a simple API with Open API
+# documentation, and should be deployed in a secure isolated environment with only HTTPS exposed to the
+# world.
 
- Sol:
+ ### Sol:
  
  1.Provisoned AWS ec2 instances 
  
@@ -22,12 +22,12 @@ world.
  
  
  
- Question-2:create a CodePipeline to deploy the application and infrastructure created.
+ # Question-2:create a CodePipeline to deploy the application and infrastructure created.
  
- Sol:
+ ### Sol:
  
- 1. Create a pipeline in Jenkins2.Write a jenkins file using DSL grrovy i.e, Pipeline as Code
+  1. Create a pipeline in Jenkins2.Write a jenkins file using DSL grrovy i.e, Pipeline as Code
 
- 3.Build  and run the pipeline and validate your files in Aws ECS
+  2.Build  and run the pipeline and validate your files in Aws ECS
  
- 4.Access the webapp
+  3.Access the webapp
