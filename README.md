@@ -16,6 +16,10 @@
  
  6.Exposed the WEBAPP on Isolated environment 
 
+**Align center:**
+<p align="center" width="100%">
+    <img width="93%" src="https://github.com/PraveenGit3/Assignment/blob/main/Screenshot%202023-02-02%20at%2021.18.44.png">
+</p>
  
  
  
