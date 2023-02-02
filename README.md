@@ -61,3 +61,8 @@ docker-compose up --scale app=2
 2.One of the reasons which I strongly believe this could be good practices are Code reconfiguration for example any change request will initiated only through change in Github repos eliminating discrepancy in deployments and reducing manual build process.
 
 3.Some of my recommendation could include bring CI/CD practices in creating of Platform  for applications  just like application lifecycle , Usage of Secure service for authentication like AWS-KMS ,SCM polling ,etc
+
+**Align center:**
+<p align="center" width="100%">
+    <img width="93%" src="https://github.com/PraveenGit3/Assignment/blob/main/Screenshot%202023-02-02%20at%2021.31.37.png">
+</p>
