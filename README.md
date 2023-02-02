@@ -64,5 +64,5 @@ docker-compose up --scale app=2
 
 **Align center:**
 <p align="center" width="100%">
-    <img width="93%" src="https://github.com/PraveenGit3/Assignment/blob/main/Screenshot%202023-02-02%20at%2021.31.37.png">
+    <img width="73%" src="https://github.com/PraveenGit3/Assignment/blob/main/Screenshot%202023-02-02%20at%2021.31.37.png">
 </p>
