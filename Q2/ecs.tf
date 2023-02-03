@@ -1,4 +1,4 @@
-resource "aws_ecs_cluster" "test-cluster" {
+resource "aws_ecs_cluster" "hello-world-cluster" {
   name = "myapp-cluster"
 }
 
