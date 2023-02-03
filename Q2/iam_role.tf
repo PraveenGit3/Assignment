@@ -1,6 +1,6 @@
 ## ECS task execution role data
 data "aws_iam_policy_document" "ecs_task_execution_role" {
-  version = "2012-10-17"
+  version = "2023-02-02"
   statement {
     sid     = ""
     effect  = "Allow"
