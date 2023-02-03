@@ -34,7 +34,7 @@ pipeline {
          // Stopping Docker containers for cleaner Docker run
      stage('stop previous containers') {
          steps {
-            sh 'docker ps -f name=mypythonContainer -q | xargs --no-run-if-empty docker container stop'
+            sh 'docker ps -f name=hello-world -q | xargs --no-run-if-empty docker container stop'
             sh 'docker container ls -a -fname=hello-world.jar:latest -q | xargs -r docker container rm'
          }
        }
@@ -42,7 +42,7 @@ pipeline {
     stage('Docker Run') {
      steps{
          script {
-                sh 'docker run -d -p 3000:3000 --rm --name mypythonContainer 089578429851.dkr.ecr.ap-south-1.amazonaws.com/assigni'
+                sh 'docker run -d -p 3000:3000 --rm --name hello-world 089578429851.dkr.ecr.ap-south-1.amazonaws.com/assigni'
             }
       }
     }
